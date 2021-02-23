@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+</html>
+<style>
+</style>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id="title">Survey</h1>
+<p class="description" id="description">Please let us know how we did. Thank you!</p>
+<form id="survey-form">
+  <label id="name-label" for="name-label">Name <input id="name" type="text" placeholder="Enter name here" required></label><br>
+<label id="email-label" for="email-label">Email <input id="email" type="email" placeholder="Enter email here" required></label><br>
+  <label id="number-label" for="number-label">Age <input id="number" type="number" min="0" max="120" placeholder="Enter age here" required></label><br>
+  <label for="dropdown">Choose an option:</label>
+  <select name="dropdown" id="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select><br><br>
+  <label for="radioButton1"> Radio Button 1</label>
+  <input type="radio" name="radioButton" id="radioButton1" value="radioButton1">
+  <label for="radioButton2"> Radio Button 2</label>
+  <input type="radio" name="radioButton" id="radioButton2" value="radioButton2">
+  <label for="checkbox1"> Check Box 1</label>
+  <input type="checkbox" name="checkbox" id="checkbox1" value="checkbox1">
+  <label for="checkbox2"> Check Box 2</label>
+  <input type="checkbox" name="checkbox" id="checkbox2" value="checkbox2">
+  <label for="textarea">TextArea</label>
+  <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+  <button type="submit" id="submit">Submit</button>
+</form>
